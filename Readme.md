@@ -16,11 +16,11 @@
 
 ## API
 
-1. GET v1/people
-2. GET v1/people/<int>
-3. GET v1/people/<int>/ancestors/?depth=<int>
-4. POST v1/people
-5. PUT v1/people/<int>
-6. PATCH v1/people/<int>
-7. DELETE v1/people/<int>
+1. GET `v1/people`
+2. GET `v1/people/<int>`
+3. GET `v1/people/<int>/ancestors/?depth=<int>`
+4. POST `v1/people`
+5. PUT `v1/people/<int>`
+6. PATCH `v1/people/<int>`
+7. DELETE `v1/people/<int>`
 
