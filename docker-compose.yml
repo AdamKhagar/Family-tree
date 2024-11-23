@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:13
+    volumes:
+      - $PWD:/app
+    env_file:
+      - ./.envs/.postgres
+    networks:
+      - backend
+    ports:
+      - "5432:5432"
+
+networks:
+  backend:
